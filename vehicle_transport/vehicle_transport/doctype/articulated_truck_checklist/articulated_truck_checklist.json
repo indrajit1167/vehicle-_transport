@@ -1,0 +1,783 @@
+{
+ "actions": [],
+ "autoname": "format:AT-{#######}",
+ "creation": "2026-04-10 06:42:09.855316",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "articulated_truck_section",
+  "doctype_name",
+  "date",
+  "form_number",
+  "equipment_type",
+  "equipment_make",
+  "equipment_model",
+  "column_break_7",
+  "equipment_shape",
+  "shift",
+  "company",
+  "equipment_id",
+  "odometerhourmeter",
+  "drivers_health_status_section",
+  "competent_and_authorised_operators_name",
+  "license_number",
+  "license_expiry",
+  "last_day_off",
+  "last_day_off_age",
+  "msg_last_day_off_age",
+  "column_break_19",
+  "rnr_start_date",
+  "rnr_end_date",
+  "column_break_20",
+  "bp_systolic",
+  "warning_bp_systolic",
+  "bp_diastolic",
+  "warning_bp_diatolic",
+  "bp_measure_date",
+  "diabetic",
+  "column_break_27",
+  "sugar_level_fasting",
+  "warning_sugar_level_fasting",
+  "sugar_level_after_meal",
+  "warning_sugar_level_meal",
+  "sugar_level_measure_date",
+  "sleep_time_information_column",
+  "last_sleep_time",
+  "last_wake_up_time",
+  "column_break_38",
+  "warning_sleep_time",
+  "last_sleep_time_msg",
+  "trip_information",
+  "trip_details",
+  "co_passenger_name",
+  "column_break_34",
+  "cargo_info",
+  "journey_plan",
+  "prime_mover_section",
+  "coolant_water_level",
+  "engine_oil_dip_level",
+  "power_steering_oil_level",
+  "tyres_wheel_studs_nut_indicator_chocks",
+  "air_tank_drains",
+  "turntable",
+  "mud_guard_and_mud_flaps",
+  "fuel_leveltank",
+  "back_of_cabs_step_grab_handles",
+  "fire_extinguisher",
+  "first_aid_kit_in_vehicle_and_fully_stocked",
+  "battery_and_bracket_mounting",
+  "main_isolation_switch",
+  "seat_and_seat_belts",
+  "instrumentation_and_switches",
+  "column_break_29",
+  "horn",
+  "windscreenwindowmirrorwipers",
+  "registration_and_safety_sticker",
+  "tail_lights_and_signals",
+  "brake_lights_and_seal_beams",
+  "engine_break",
+  "service_park_brakes",
+  "steering_system",
+  "engine_warning_light",
+  "two_way_radio",
+  "daily_fuel_records__tfb_kfb",
+  "safemine_collision_avoidance_system",
+  "trakpro_vehicle_tracking_system",
+  "wheel_chocks",
+  "trailertanker_section",
+  "trailer_kingpin",
+  "landing_gear_and_stand",
+  "fire_extinguisher_47",
+  "trailer_and_supply_hose",
+  "trailer_power_supply_cable",
+  "tail_light_and_signals",
+  "column_break_77",
+  "tyreswheel_studs_wheel_nut_indicators",
+  "rocket_box",
+  "twist_locks",
+  "trailerservice_parkbrakes",
+  "wheel_hub_meter_reading",
+  "comments_defects_section",
+  "always_follow_manufacturer_instruction_and_site_procedure",
+  "is_corrective_action_needed",
+  "column_break_85",
+  "comments_or_details_of_repair_needed",
+  "amended_from",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "articulated_truck_section",
+   "fieldtype": "Section Break",
+   "label": "Articulated Truck"
+  },
+  {
+   "default": "articulated-truck-checklist",
+   "fieldname": "doctype_name",
+   "fieldtype": "Data",
+   "hidden": 1
+  },
+  {
+   "default": "Today",
+   "depends_on": "license_plate",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "form_number",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Form Number"
+  },
+  {
+   "depends_on": "license_plate",
+   "fetch_from": "license_plate.vehicle_type",
+   "fieldname": "equipment_type",
+   "fieldtype": "Data",
+   "label": "Equipment Type"
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "equipment_make",
+   "fieldtype": "Data",
+   "label": "Equipment Make"
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "equipment_model",
+   "fieldtype": "Data",
+   "label": "Equipment Model"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "equipment_shape",
+   "fieldtype": "Data",
+   "label": "Equipment Shape"
+  },
+  {
+   "fieldname": "shift",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Shift"
+  },
+  {
+   "default": "Lotic Bige Limited",
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "Company"
+  },
+  {
+   "depends_on": "license_plate",
+   "fetch_from": "license_plate.make",
+   "fieldname": "equipment_id",
+   "fieldtype": "Data",
+   "label": "Equipment ID"
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "odometerhourmeter",
+   "fieldtype": "Data",
+   "label": "Odometer/Hourmeter"
+  },
+  {
+   "fieldname": "drivers_health_status_section",
+   "fieldtype": "Section Break",
+   "label": "Driver's Status"
+  },
+  {
+   "fieldname": "competent_and_authorised_operators_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Competent and Authorised Operator's name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "license_number",
+   "fieldtype": "Data",
+   "label": "License Number",
+   "read_only": 1
+  },
+  {
+   "fieldname": "license_expiry",
+   "fieldtype": "Data",
+   "label": "License Expiry",
+   "read_only": 1
+  },
+  {
+   "fieldname": "last_day_off",
+   "fieldtype": "Date",
+   "label": "Last Day Off"
+  },
+  {
+   "description": "Last Day off was ago.",
+   "fieldname": "last_day_off_age",
+   "fieldtype": "Data",
+   "label": "Last Day Off Age",
+   "read_only": 1
+  },
+  {
+   "fieldname": "msg_last_day_off_age",
+   "fieldtype": "HTML",
+   "options": "<a class=\"alert alert-info\"> days before DAY OFF was taken.</a>"
+  },
+  {
+   "fieldname": "column_break_19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rnr_start_date",
+   "fieldtype": "Date",
+   "label": "RNR Start Date(last)"
+  },
+  {
+   "fieldname": "rnr_end_date",
+   "fieldtype": "Date",
+   "label": "RNR End Date(Last)"
+  },
+  {
+   "fieldname": "column_break_20",
+   "fieldtype": "Section Break",
+   "label": "Health Information:"
+  },
+  {
+   "description": "Blood Pressure(upper number), Reference range between 90 mmhg to 140mmhg.",
+   "fieldname": "bp_systolic",
+   "fieldtype": "Int",
+   "label": "BP SYSTOLIC( mm Hg)"
+  },
+  {
+   "depends_on": "eval: ((doc.bp_systolic>140) || (doc.bp_systolic<90))",
+   "fieldname": "warning_bp_systolic",
+   "fieldtype": "HTML",
+   "options": "<p class=\"alert alert-danger\">Warning: Blood pressure {{doc.bp_systolic}}mm Hg is out of normal range.</p>"
+  },
+  {
+   "description": "Blood Pressure(lower number), Reference range between 60mmhg to 90mmhg.",
+   "fieldname": "bp_diastolic",
+   "fieldtype": "Int",
+   "label": "BP DIASTOLIC (mm Hg)"
+  },
+  {
+   "depends_on": "eval: ((doc.bp_diastolic<60) || (doc.bp_diastolic>90))",
+   "fieldname": "warning_bp_diatolic",
+   "fieldtype": "HTML",
+   "options": "<p class=\"alert alert-danger\">Warning: Blood pressure {{doc.bp_diastolic}} is out of normal range.</p>"
+  },
+  {
+   "description": "Last blood pressure tested date.",
+   "fieldname": "bp_measure_date",
+   "fieldtype": "Date",
+   "label": "BP Measure Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "diabetic",
+   "fieldtype": "Check",
+   "label": "Diabetic?"
+  },
+  {
+   "fieldname": "column_break_27",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "diabetic",
+   "description": "Reference: Normal range 70-99mg/dl.",
+   "fieldname": "sugar_level_fasting",
+   "fieldtype": "Int",
+   "label": "Sugar Level(Fasting mg/dl)"
+  },
+  {
+   "depends_on": "eval: (doc.sugar_level_fasting>99)",
+   "fieldname": "warning_sugar_level_fasting",
+   "fieldtype": "HTML",
+   "options": "<p class=\"alert alert-danger\">Warning: Sugar level fasting {{doc.sugar_level_fasting}} is out of normal range.</p>"
+  },
+  {
+   "depends_on": "diabetic",
+   "description": "Reference: Normal range less than 140mg/dl.",
+   "fieldname": "sugar_level_after_meal",
+   "fieldtype": "Int",
+   "label": "Sugar Level (2hrs after meal mg/dl)"
+  },
+  {
+   "depends_on": "eval: (doc.sugar_level_after_meal>140)",
+   "fieldname": "warning_sugar_level_meal",
+   "fieldtype": "HTML",
+   "options": "<p class=\"alert alert-danger\">Warning: Sugar level after 2hrs meal {{doc.sugar_level_after_mael}} is higher than normal range.</p>"
+  },
+  {
+   "depends_on": "diabetic",
+   "description": "When Sugar Level was measured.",
+   "fieldname": "sugar_level_measure_date",
+   "fieldtype": "Datetime",
+   "label": "Sugar Level Measure Date"
+  },
+  {
+   "fieldname": "sleep_time_information_column",
+   "fieldtype": "Section Break",
+   "label": "Sleep Time Information:"
+  },
+  {
+   "description": "Lasttime when went to sleep.",
+   "fieldname": "last_sleep_time",
+   "fieldtype": "Datetime",
+   "label": "Last Sleep Time",
+   "reqd": 1
+  },
+  {
+   "description": "Lasttime when you woke up.",
+   "fieldname": "last_wake_up_time",
+   "fieldtype": "Datetime",
+   "label": "Last Wake Up Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_38",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "warning_sleep_time",
+   "fieldtype": "Data",
+   "label": "Total Sleep Time",
+   "read_only": 1
+  },
+  {
+   "depends_on": "warning_sleep_time",
+   "fieldname": "last_sleep_time_msg",
+   "fieldtype": "Heading",
+   "label": "Warning: Last Sleep Time is less than 6hrs"
+  },
+  {
+   "fieldname": "trip_information",
+   "fieldtype": "Section Break",
+   "label": "Trip Information:"
+  },
+  {
+   "fieldname": "trip_details",
+   "fieldtype": "Small Text",
+   "label": "Trip Details",
+   "reqd": 1
+  },
+  {
+   "fieldname": "co_passenger_name",
+   "fieldtype": "Small Text",
+   "label": "Co-Passenger Names"
+  },
+  {
+   "fieldname": "column_break_34",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cargo_info",
+   "fieldtype": "Small Text",
+   "label": "Cargo Info",
+   "reqd": 1
+  },
+  {
+   "fieldname": "journey_plan",
+   "fieldtype": "Small Text",
+   "label": "Journey Plan",
+   "reqd": 1
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "prime_mover_section",
+   "fieldtype": "Section Break",
+   "label": "Prime Mover"
+  },
+  {
+   "fieldname": "coolant_water_level",
+   "fieldtype": "Select",
+   "label": "Coolant Water Level",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "engine_oil_dip_level",
+   "fieldtype": "Select",
+   "label": "Engine Oil Dip level",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "power_steering_oil_level",
+   "fieldtype": "Select",
+   "label": "Power Steering Oil Level",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tyres_wheel_studs_nut_indicator_chocks",
+   "fieldtype": "Select",
+   "label": "Tyres/ Wheel Studs/ Nut Indicator/ Chocks",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "air_tank_drains",
+   "fieldtype": "Select",
+   "label": "Air Tank Drains",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "turntable",
+   "fieldtype": "Select",
+   "label": "Turntable",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "mud_guard_and_mud_flaps",
+   "fieldtype": "Select",
+   "label": "Mud Guard and Mud Flaps",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fuel_leveltank",
+   "fieldtype": "Select",
+   "label": "Fuel level(Tank)",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "back_of_cabs_step_grab_handles",
+   "fieldtype": "Select",
+   "label": "Back of Cabs, Step, Grab Handles",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fire_extinguisher",
+   "fieldtype": "Select",
+   "label": "Fire Extinguisher",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "first_aid_kit_in_vehicle_and_fully_stocked",
+   "fieldtype": "Select",
+   "label": "First Aid Kit in Vehicle and Fully Stocked",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "battery_and_bracket_mounting",
+   "fieldtype": "Select",
+   "label": "Battery and Bracket Mounting",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "main_isolation_switch",
+   "fieldtype": "Select",
+   "label": "Main Isolation Switch",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "seat_and_seat_belts",
+   "fieldtype": "Select",
+   "label": "Seat and Seat belts",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "instrumentation_and_switches",
+   "fieldtype": "Select",
+   "label": "Instrumentation and Switches",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_29",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "horn",
+   "fieldtype": "Select",
+   "label": "Horn",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "windscreenwindowmirrorwipers",
+   "fieldtype": "Select",
+   "label": "Windscreen/Window/Mirror/Wipers",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "registration_and_safety_sticker",
+   "fieldtype": "Select",
+   "label": "Registration and Safety Sticker",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tail_lights_and_signals",
+   "fieldtype": "Select",
+   "label": "Tail Lights and Signals",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "brake_lights_and_seal_beams",
+   "fieldtype": "Select",
+   "label": "Brake Lights and Seal Beams",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "engine_break",
+   "fieldtype": "Select",
+   "label": "Engine break",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "service_park_brakes",
+   "fieldtype": "Select",
+   "label": "Service/ Park Brakes",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "steering_system",
+   "fieldtype": "Select",
+   "label": "Steering System",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "engine_warning_light",
+   "fieldtype": "Select",
+   "label": "Engine Warning Light",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "two_way_radio",
+   "fieldtype": "Select",
+   "label": "Two Way Radio",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "daily_fuel_records__tfb_kfb",
+   "fieldtype": "Select",
+   "label": "Daily Fuel Records ( TFB KFB)",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "safemine_collision_avoidance_system",
+   "fieldtype": "Select",
+   "label": "Safemine Collision Avoidance System",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "trakpro_vehicle_tracking_system",
+   "fieldtype": "Select",
+   "label": "TrakPro Vehicle Tracking System",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "wheel_chocks",
+   "fieldtype": "Select",
+   "label": "Wheel Chocks",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "trailertanker_section",
+   "fieldtype": "Section Break",
+   "label": "Trailer/Tanker"
+  },
+  {
+   "fieldname": "trailer_kingpin",
+   "fieldtype": "Select",
+   "label": "Trailer Kingpin",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "landing_gear_and_stand",
+   "fieldtype": "Select",
+   "label": "Landing Gear and Stand",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fire_extinguisher_47",
+   "fieldtype": "Select",
+   "label": "Fire Extinguisher",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "trailer_and_supply_hose",
+   "fieldtype": "Select",
+   "label": "Trailer and Supply Hose",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "trailer_power_supply_cable",
+   "fieldtype": "Select",
+   "label": "Trailer Power Supply Cable",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tail_light_and_signals",
+   "fieldtype": "Select",
+   "label": "Tail Light and Signals",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_77",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tyreswheel_studs_wheel_nut_indicators",
+   "fieldtype": "Select",
+   "label": "Tyres/Wheel Studs/ Wheel Nut Indicators",
+   "length": 200,
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "rocket_box",
+   "fieldtype": "Select",
+   "label": "Rocket Box",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "twist_locks",
+   "fieldtype": "Select",
+   "label": "Twist Locks",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "trailerservice_parkbrakes",
+   "fieldtype": "Select",
+   "label": "Trailer/Service/ Parkbrakes",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "wheel_hub_meter_reading",
+   "fieldtype": "Select",
+   "label": "Wheel Hub Meter Reading",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "comments_defects_section",
+   "fieldtype": "Section Break",
+   "label": "COMMENTS/ DEFECTS"
+  },
+  {
+   "fieldname": "always_follow_manufacturer_instruction_and_site_procedure",
+   "fieldtype": "Heading",
+   "label": "Always Follow Manufacturer Instruction and Site Procedure."
+  },
+  {
+   "fieldname": "is_corrective_action_needed",
+   "fieldtype": "Select",
+   "label": "Is Corrective Action Needed",
+   "options": "\nYes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_85",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "comments_or_details_of_repair_needed",
+   "fieldtype": "Small Text",
+   "label": "Comments Or Details of Repair Needed"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Articulated Truck Checklist",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Articulated Truck Checklist",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [
+  {
+   "link_doctype": "Take 5",
+   "link_fieldname": "prestart_ref"
+  }
+ ],
+ "modified": "2026-04-10 06:42:09.855316",
+ "modified_by": "Administrator",
+ "module": "Vehicle Transport",
+ "name": "Articulated Truck Checklist",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Safety App",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

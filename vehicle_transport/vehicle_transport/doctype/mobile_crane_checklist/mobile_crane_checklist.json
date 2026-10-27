@@ -1,0 +1,1148 @@
+{
+ "actions": [],
+ "autoname": "format:CRA-{#######}",
+ "creation": "2026-04-10 06:42:39.533143",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "mobile_crane",
+  "doctype_name",
+  "date",
+  "form_number",
+  "license_plate",
+  "equipment_type",
+  "equipment_make",
+  "column_break_7",
+  "equipment_model",
+  "company",
+  "equipment_id",
+  "shift",
+  "odometerhourmeter",
+  "drivers_health_status_section",
+  "competent_and_auth",
+  "license_number",
+  "license_expiry",
+  "last_day_off",
+  "last_day_off_age",
+  "msg_last_day_off_age",
+  "column_break_19",
+  "rnr_start_date",
+  "rnr_end_date",
+  "health_information",
+  "bp_systolic",
+  "warning_bp_systolic",
+  "bp_diastolic",
+  "warning_bp_diatolic",
+  "bp_measure_date",
+  "diabetic",
+  "column_break_29",
+  "sugar_level_fasting",
+  "warning_sugar_level_fasting",
+  "sugar_level_after_meal",
+  "warning_sugar_level_meal",
+  "sugar_level_measure_date",
+  "sleep_time_information",
+  "last_sleep_time",
+  "last_wake_up_time",
+  "trip_information",
+  "trip_details",
+  "copassenger_name",
+  "column_break_35",
+  "cargo_info",
+  "journey_plan",
+  "marking_documents_section",
+  "crane_configuration_tag_display",
+  "cranesafe_certification",
+  "column_break_15",
+  "mrcswl_displayedhook_block",
+  "registration_and_safety_sticker",
+  "crane_carrier_section",
+  "tyre_crackswear_demage_dual_clear_of_stones",
+  "chasis_distortioncrackspivotcorrosion",
+  "column_break_21",
+  "tyreswheel_studsnut_indicators",
+  "wheel_chocks",
+  "engine_compartments_chasis_upperdeck_section",
+  "radiotor_water_level",
+  "fuel_level_note__if_below_half_way_arrange_top_up",
+  "all_oil_level_engine_transmission_hydraulic",
+  "column_break_28",
+  "battery_electrolyte_terminal_connection_secure",
+  "leaks_oil_water_fuel",
+  "lubrication__grease",
+  "upper_deck_section",
+  "travelling_slow_lock__brake",
+  "turntable_bearing__ring_gear_lubrication",
+  "column_break_61",
+  "pinion_drive__bolts_lubrication",
+  "counterweight_secure",
+  "main_and_auxilary_hoist_drum_merchanisims_section",
+  "layering_of_rope_on_drum",
+  "anchorage_of_rope_socklet_wedges",
+  "column_break_41",
+  "general_condition_of_rope__demage_birdcage",
+  "crane_cabins_section",
+  "access_to_cabin__compartments__walkways__hand_rails",
+  "door_condition__lock_operational",
+  "cabin_general_condition__clean_and_tidy",
+  "correct_load_charts_available_and_visible",
+  "daily_checklist__logbooks__copies_passed_to_supervisor",
+  "crane_operator_manual",
+  "data_50",
+  "first_aid_kit_in_vehicle_and_fully_stocked",
+  "operators_seat_condition_seatbelts",
+  "windscreen_wiper__window__mirror__clean_no_cracks",
+  "horn__warning_devices__two_way_radio",
+  "light__head_work_park_indication_brake_disco_etc",
+  "all_control_levers_and_gauges_lebelled",
+  "hook_block_assembly_section",
+  "hook_condition__deformation_sheaves_hook",
+  "hook_safety_latch",
+  "sheave_guards",
+  "column_break_87",
+  "swivel_bearing__rolallon_lubrication",
+  "hoist_rope_termination__the_down_point",
+  "after_starting_engine_section",
+  "all_guages_working__oil_water_fuel_temp_etc",
+  "safemine_collision_avoidance_system",
+  "trakpro_vehicle_tracking_system",
+  "electronic_load_weighing_device__lmi_functional",
+  "throttle_control__accelerator",
+  "column_break_70",
+  "steering_steering_wheel_steering_brakes",
+  "travel_brakes_exhaust_brake_telma_braking",
+  "hand_brake__park_brake__holding_brake",
+  "all_controls__luff_hoist_slow__extension__travel",
+  "outrigeers_section",
+  "beams__extension__distortion_demage__cracks",
+  "beams_lift___lower__demage_cracks",
+  "column_break_78",
+  "cylinders_hoses_fittings_seals_leaks",
+  "outriggers_pads_pivot_pins_keepers_safety_pins",
+  "boom_lift_cylinder__ram_section",
+  "general_condition_hoses_fittings_seals_leaks",
+  "boom_base_section_section",
+  "general_condition_damage_cracks_corrosion",
+  "pivot_pins_housing_lubrication",
+  "column_break_86",
+  "boom_length_indicator_87",
+  "boom_angle_indicator_88",
+  "all_boom_section_2nd_3rd_4th_head_section",
+  "general_condition_damage_cracks_corrosion_90",
+  "wear_pads_slides_lubrication",
+  "column_break_123",
+  "hydraulic_hoses_fittings_pipes_leaks",
+  "hoist_barke_test_section",
+  "main_winch",
+  "column_break_128",
+  "auxiliary_winch",
+  "crane_operational_safety_device_lmi_liccon_section",
+  "crane_load_indicator_main_auxiliary",
+  "boom_angle_indicator",
+  "boom_length_indicator",
+  "boom_radius_indicator",
+  "column_break_100",
+  "anti_two_block_system",
+  "crane_level_indicator",
+  "fire_extinguisher__suppression_syntem",
+  "data_105",
+  "good_condition__correct_colour_tag",
+  "column_break_141",
+  "copy_of_lifting_equipment_register_in_crane",
+  "section_break_108",
+  "am_i_trained",
+  "select_110",
+  "section_break_111",
+  "comment_defects",
+  "amended_from",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "mobile_crane",
+   "fieldtype": "Section Break",
+   "label": "Mobile Crane"
+  },
+  {
+   "default": "mobile-crane-checklist",
+   "fieldname": "doctype_name",
+   "fieldtype": "Data",
+   "hidden": 1
+  },
+  {
+   "default": "Today",
+   "depends_on": "license_plate",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "form_number",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Form Number"
+  },
+  {
+   "fieldname": "license_plate",
+   "fieldtype": "Link",
+   "label": "License Plate",
+   "options": "Vehicle"
+  },
+  {
+   "depends_on": "license_plate",
+   "fetch_from": "license_plate.vehicle_type",
+   "fieldname": "equipment_type",
+   "fieldtype": "Data",
+   "label": "Equipment Type"
+  },
+  {
+   "depends_on": "license_plate",
+   "fetch_from": "license_plate.model",
+   "fieldname": "equipment_make",
+   "fieldtype": "Data",
+   "label": "Equipment Make"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "license_plate",
+   "fetch_from": "license_plate.fleet_number",
+   "fieldname": "equipment_model",
+   "fieldtype": "Data",
+   "label": "Equipment Model"
+  },
+  {
+   "default": "Lotic Bige Limited",
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "Company"
+  },
+  {
+   "depends_on": "license_plate",
+   "fetch_from": "license_plate.fleet_number",
+   "fieldname": "equipment_id",
+   "fieldtype": "Data",
+   "label": "Equipment ID"
+  },
+  {
+   "fieldname": "shift",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Shift"
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "odometerhourmeter",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Odometer/Hourmeter"
+  },
+  {
+   "fieldname": "drivers_health_status_section",
+   "fieldtype": "Section Break",
+   "label": "Driver's Status"
+  },
+  {
+   "fieldname": "competent_and_auth",
+   "fieldtype": "Data",
+   "label": "Competent and Authorised Operators Name"
+  },
+  {
+   "fieldname": "license_number",
+   "fieldtype": "Data",
+   "label": "License Number",
+   "read_only": 1
+  },
+  {
+   "fieldname": "license_expiry",
+   "fieldtype": "Data",
+   "label": "License Expiry",
+   "read_only": 1
+  },
+  {
+   "fieldname": "last_day_off",
+   "fieldtype": "Date",
+   "label": "Last Day Off"
+  },
+  {
+   "fieldname": "last_day_off_age",
+   "fieldtype": "Data",
+   "label": "Last Day Off Age"
+  },
+  {
+   "fieldname": "msg_last_day_off_age",
+   "fieldtype": "HTML",
+   "options": "<a class=\"alert alert-info\"> days before DAY OFF was taken.</a>"
+  },
+  {
+   "fieldname": "column_break_19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rnr_start_date",
+   "fieldtype": "Date",
+   "label": "RNR Start Date(last)"
+  },
+  {
+   "fieldname": "rnr_end_date",
+   "fieldtype": "Date",
+   "label": "RNR End Date(Last)"
+  },
+  {
+   "fieldname": "health_information",
+   "fieldtype": "Section Break",
+   "label": "Health Information"
+  },
+  {
+   "description": "Blood Pressure(upper number), Reference range between 90 mmhg to 140mmhg.",
+   "fieldname": "bp_systolic",
+   "fieldtype": "Int",
+   "label": "BP SYSTOLIC( mm Hg)"
+  },
+  {
+   "depends_on": "eval: ((doc.bp_systolic>140) || (doc.bp_systolic<90))",
+   "fieldname": "warning_bp_systolic",
+   "fieldtype": "HTML",
+   "options": "<p class=\"alert alert-danger\">Warning: Blood pressure {{doc.bp_systolic}}mm Hg is out of normal range.</p>"
+  },
+  {
+   "description": "Blood Pressure(lower number), Reference range between 60mmhg to 90mmhg.",
+   "fieldname": "bp_diastolic",
+   "fieldtype": "Int",
+   "label": "BP DIASTOLIC (mm Hg)"
+  },
+  {
+   "depends_on": "eval: ((doc.bp_diastolic<60) || (doc.bp_diastolic>90))",
+   "fieldname": "warning_bp_diatolic",
+   "fieldtype": "HTML",
+   "options": "<p class=\"alert alert-danger\">Warning: Blood pressure {{doc.bp_diastolic}} is out of normal range.</p>"
+  },
+  {
+   "fieldname": "bp_measure_date",
+   "fieldtype": "Date",
+   "label": "BP Measure Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "diabetic",
+   "fieldtype": "Check",
+   "label": "Diabetic?"
+  },
+  {
+   "fieldname": "column_break_29",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "diabetic",
+   "description": "Reference: Normal range 70-99mg/dl.",
+   "fieldname": "sugar_level_fasting",
+   "fieldtype": "Int",
+   "label": "Sugar Level(Fasting mg/dl)"
+  },
+  {
+   "depends_on": "eval:(doc.sugar_level_fasting!=null || '');\neval: ((doc.sugar_level_fasting<70) || (doc.sugar_level_fasting>99))",
+   "fieldname": "warning_sugar_level_fasting",
+   "fieldtype": "HTML",
+   "options": "<p class=\"alert alert-danger\">Warning: Sugar level fasting {{doc.sugar_level_fasting}} is out of normal range.</p>"
+  },
+  {
+   "depends_on": "diabetic",
+   "description": "Reference: Normal range less than 140mg/dl.",
+   "fieldname": "sugar_level_after_meal",
+   "fieldtype": "Int",
+   "label": "Sugar Level (2hrs after meal mg/dl)"
+  },
+  {
+   "depends_on": "eval: (doc.sugar_level_after_meal>140)",
+   "fieldname": "warning_sugar_level_meal",
+   "fieldtype": "HTML",
+   "options": "<p class=\"alert alert-danger\">Warning: Sugar level after 2hrs meal {{doc.sugar_level_after_mael}} is higher than normal range.</p>"
+  },
+  {
+   "depends_on": "diabetic",
+   "fieldname": "sugar_level_measure_date",
+   "fieldtype": "Datetime",
+   "label": "Sugar Level Measure Date"
+  },
+  {
+   "fieldname": "sleep_time_information",
+   "fieldtype": "Section Break",
+   "label": "Sleep Time Information:"
+  },
+  {
+   "fieldname": "last_sleep_time",
+   "fieldtype": "Datetime",
+   "label": "Last Sleep Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "last_wake_up_time",
+   "fieldtype": "Datetime",
+   "label": "Last Wake Up Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "trip_information",
+   "fieldtype": "Section Break",
+   "label": "Trip Information:"
+  },
+  {
+   "fieldname": "trip_details",
+   "fieldtype": "Small Text",
+   "label": "Trip Details",
+   "reqd": 1
+  },
+  {
+   "fieldname": "copassenger_name",
+   "fieldtype": "Small Text",
+   "label": "Co-Passenger Names"
+  },
+  {
+   "fieldname": "column_break_35",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cargo_info",
+   "fieldtype": "Small Text",
+   "label": "Cargo Info",
+   "reqd": 1
+  },
+  {
+   "fieldname": "journey_plan",
+   "fieldtype": "Small Text",
+   "label": "Journey Plan",
+   "reqd": 1
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "marking_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Marking Documents"
+  },
+  {
+   "fieldname": "crane_configuration_tag_display",
+   "fieldtype": "Select",
+   "label": "Crane Configuration Tag Display",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cranesafe_certification",
+   "fieldtype": "Select",
+   "label": "CraneSafe Certification",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mrcswl_displayedhook_block",
+   "fieldtype": "Select",
+   "label": "MRC/SWL Displayed/Hook Block",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "registration_and_safety_sticker",
+   "fieldtype": "Select",
+   "label": "Registration and Safety Sticker",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "crane_carrier_section",
+   "fieldtype": "Section Break",
+   "label": "CRANE CARRIER"
+  },
+  {
+   "fieldname": "tyre_crackswear_demage_dual_clear_of_stones",
+   "fieldtype": "Select",
+   "label": "Tyre, Cracks,Wear, Demage, Dual Clear of Stones",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "chasis_distortioncrackspivotcorrosion",
+   "fieldtype": "Select",
+   "label": "Chasis Distortion/Cracks/Pivot/Corrosion",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tyreswheel_studsnut_indicators",
+   "fieldtype": "Select",
+   "label": "Tyres/Wheel Studs/Nut Indicators",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "wheel_chocks",
+   "fieldtype": "Select",
+   "label": "Wheel Chocks",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "engine_compartments_chasis_upperdeck_section",
+   "fieldtype": "Section Break",
+   "label": "ENGINE COMPARTMENTS_CHASIS, UPPERDECK"
+  },
+  {
+   "fieldname": "radiotor_water_level",
+   "fieldtype": "Select",
+   "label": "Radiotor Water Level",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fuel_level_note__if_below_half_way_arrange_top_up",
+   "fieldtype": "Select",
+   "label": "Fuel Level_Note_ if below Half Way Arrange top Up",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "all_oil_level_engine_transmission_hydraulic",
+   "fieldtype": "Select",
+   "label": "All Oil Level Engine, Transmission Hydraulic",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_28",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "battery_electrolyte_terminal_connection_secure",
+   "fieldtype": "Select",
+   "label": "Battery Electrolyte Terminal connection secure",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "leaks_oil_water_fuel",
+   "fieldtype": "Select",
+   "label": "Leaks Oil Water Fuel",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "lubrication__grease",
+   "fieldtype": "Select",
+   "label": "Lubrication  Grease",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "upper_deck_section",
+   "fieldtype": "Section Break",
+   "label": "UPPER DECK"
+  },
+  {
+   "fieldname": "travelling_slow_lock__brake",
+   "fieldtype": "Select",
+   "label": "Travelling Slow Lock / Brake",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "turntable_bearing__ring_gear_lubrication",
+   "fieldtype": "Select",
+   "label": "Turntable Bearing_ Ring Gear, Lubrication",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_61",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pinion_drive__bolts_lubrication",
+   "fieldtype": "Select",
+   "label": "Pinion Drive_ Bolts, Lubrication",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "counterweight_secure",
+   "fieldtype": "Select",
+   "label": "Counterweight Secure",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "main_and_auxilary_hoist_drum_merchanisims_section",
+   "fieldtype": "Section Break",
+   "label": "MAIN AND AUXILARY HOIST DRUM MERCHANISIMS"
+  },
+  {
+   "fieldname": "layering_of_rope_on_drum",
+   "fieldtype": "Select",
+   "label": "Layering of Rope on Drum",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "anchorage_of_rope_socklet_wedges",
+   "fieldtype": "Select",
+   "label": "Anchorage of Rope, Socklet/ Wedges",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_41",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "general_condition_of_rope__demage_birdcage",
+   "fieldtype": "Select",
+   "label": "General Condition of Rope_ Demage_Birdcage",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "crane_cabins_section",
+   "fieldtype": "Section Break",
+   "label": "CRANE CABINS"
+  },
+  {
+   "fieldname": "access_to_cabin__compartments__walkways__hand_rails",
+   "fieldtype": "Select",
+   "label": "Access to cabin_ Compartments_ Walkways_ Hand Rails",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "door_condition__lock_operational",
+   "fieldtype": "Select",
+   "label": "Door Condition_ Lock Operational",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cabin_general_condition__clean_and_tidy",
+   "fieldtype": "Select",
+   "label": "Cabin General Condition_ Clean and Tidy",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "correct_load_charts_available_and_visible",
+   "fieldtype": "Select",
+   "label": "Correct Load Charts Available and Visible",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "daily_checklist__logbooks__copies_passed_to_supervisor",
+   "fieldtype": "Select",
+   "label": "Daily Checklist_ Logbooks_ Copies Passed to Supervisor",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "crane_operator_manual",
+   "fieldtype": "Select",
+   "label": "Crane Operator Manual",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "data_50",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "first_aid_kit_in_vehicle_and_fully_stocked",
+   "fieldtype": "Select",
+   "label": "First Aid Kit in Vehicle and Fully Stocked",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "operators_seat_condition_seatbelts",
+   "fieldtype": "Select",
+   "label": "Operators Seat Condition, SeatBelts",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "windscreen_wiper__window__mirror__clean_no_cracks",
+   "fieldtype": "Select",
+   "label": "Windscreen/ Wiper_ Window_ Mirror_ Clean, No Cracks",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "horn__warning_devices__two_way_radio",
+   "fieldtype": "Select",
+   "label": "Horn_ Warning Devices_ Two Way Radio",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "light__head_work_park_indication_brake_disco_etc",
+   "fieldtype": "Select",
+   "label": "Light_ Head, Work, Park, Indication, Brake Disco Etc",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "all_control_levers_and_gauges_lebelled",
+   "fieldtype": "Select",
+   "label": "All Control Levers and Gauges Lebelled",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "hook_block_assembly_section",
+   "fieldtype": "Section Break",
+   "label": "HOOK BLOCK ASSEMBLY"
+  },
+  {
+   "fieldname": "hook_condition__deformation_sheaves_hook",
+   "fieldtype": "Select",
+   "label": "Hook Condition_ Deformation, Sheaves Hook",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "hook_safety_latch",
+   "fieldtype": "Select",
+   "label": "Hook Safety Latch",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sheave_guards",
+   "fieldtype": "Select",
+   "label": "Sheave Guards",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_87",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "swivel_bearing__rolallon_lubrication",
+   "fieldtype": "Select",
+   "label": "Swivel Bearing_ Rolallon_Lubrication",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "hoist_rope_termination__the_down_point",
+   "fieldtype": "Select",
+   "label": "Hoist Rope termination_ The Down Point",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "after_starting_engine_section",
+   "fieldtype": "Section Break",
+   "label": "AFTER STARTING ENGINE"
+  },
+  {
+   "fieldname": "all_guages_working__oil_water_fuel_temp_etc",
+   "fieldtype": "Select",
+   "label": "All Guages Working_ Oil Water Fuel Temp Etc",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "safemine_collision_avoidance_system",
+   "fieldtype": "Select",
+   "label": "Safemine Collision Avoidance System",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "trakpro_vehicle_tracking_system",
+   "fieldtype": "Select",
+   "label": "TrakPro Vehicle Tracking System",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "electronic_load_weighing_device__lmi_functional",
+   "fieldtype": "Select",
+   "label": "Electronic Load Weighing Device_ LMI Functional",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "throttle_control__accelerator",
+   "fieldtype": "Select",
+   "label": "Throttle Control_ Accelerator",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_70",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "steering_steering_wheel_steering_brakes",
+   "fieldtype": "Select",
+   "label": "Steering, Steering Wheel, Steering Brakes",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "travel_brakes_exhaust_brake_telma_braking",
+   "fieldtype": "Select",
+   "label": "Travel Brakes, Exhaust Brake, Telma Braking",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "hand_brake__park_brake__holding_brake",
+   "fieldtype": "Select",
+   "label": "Hand Brake_ Park Brake_ Holding Brake",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "all_controls__luff_hoist_slow__extension__travel",
+   "fieldtype": "Select",
+   "label": "All Controls_ Luff_Hoist_slow_ Extension_ Travel",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "outrigeers_section",
+   "fieldtype": "Section Break",
+   "label": "OUTRIGEERS"
+  },
+  {
+   "fieldname": "beams__extension__distortion_demage__cracks",
+   "fieldtype": "Select",
+   "label": "Beams_ Extension_ Distortion_Demage_ Cracks",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "beams_lift___lower__demage_cracks",
+   "fieldtype": "Select",
+   "label": "Beams Lift _ Lower_ Demage_Cracks",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_78",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cylinders_hoses_fittings_seals_leaks",
+   "fieldtype": "Select",
+   "label": "Cylinders_Hoses_Fittings_Seals_Leaks",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "outriggers_pads_pivot_pins_keepers_safety_pins",
+   "fieldtype": "Select",
+   "label": "Outriggers Pads_Pivot Pins_keepers_Safety Pins",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "boom_lift_cylinder__ram_section",
+   "fieldtype": "Section Break",
+   "label": "BOOM LIFT CYLINDER_ RAM"
+  },
+  {
+   "fieldname": "general_condition_hoses_fittings_seals_leaks",
+   "fieldtype": "Select",
+   "label": "General Condition_Hoses_fittings_Seals_Leaks",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "boom_base_section_section",
+   "fieldtype": "Section Break",
+   "label": "BOOM BASE SECTION"
+  },
+  {
+   "fieldname": "general_condition_damage_cracks_corrosion",
+   "fieldtype": "Select",
+   "label": "General Condition_Damage_Cracks_Corrosion",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pivot_pins_housing_lubrication",
+   "fieldtype": "Select",
+   "label": "Pivot Pins_Housing_Lubrication",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_86",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "boom_length_indicator_87",
+   "fieldtype": "Select",
+   "label": "Boom Length Indicator",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "boom_angle_indicator_88",
+   "fieldtype": "Select",
+   "label": "Boom Angle Indicator",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "all_boom_section_2nd_3rd_4th_head_section",
+   "fieldtype": "Section Break",
+   "label": "ALL BOOM SECTION 2ND 3RD 4TH HEAD"
+  },
+  {
+   "fieldname": "general_condition_damage_cracks_corrosion_90",
+   "fieldtype": "Select",
+   "label": "General Condition_Damage_Cracks_Corrosion",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "wear_pads_slides_lubrication",
+   "fieldtype": "Select",
+   "label": "Wear Pads_Slides_Lubrication",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_123",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "hydraulic_hoses_fittings_pipes_leaks",
+   "fieldtype": "Select",
+   "label": "Hydraulic Hoses_Fittings_Pipes_Leaks",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "hoist_barke_test_section",
+   "fieldtype": "Section Break",
+   "label": "HOIST BARKE TEST"
+  },
+  {
+   "fieldname": "main_winch",
+   "fieldtype": "Select",
+   "label": "Main Winch",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_128",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "auxiliary_winch",
+   "fieldtype": "Select",
+   "label": "Auxiliary Winch",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "crane_operational_safety_device_lmi_liccon_section",
+   "fieldtype": "Section Break",
+   "label": "CRANE OPERATIONAL SAFETY DEVICE_LMI_LICCON"
+  },
+  {
+   "fieldname": "crane_load_indicator_main_auxiliary",
+   "fieldtype": "Select",
+   "label": "Crane Load Indicator_Main_Auxiliary",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "boom_angle_indicator",
+   "fieldtype": "Select",
+   "label": "Boom Angle Indicator",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "boom_length_indicator",
+   "fieldtype": "Select",
+   "label": "Boom Length Indicator",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "boom_radius_indicator",
+   "fieldtype": "Select",
+   "label": "Boom Radius Indicator",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_100",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "anti_two_block_system",
+   "fieldtype": "Select",
+   "label": "Anti_two Block System",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "crane_level_indicator",
+   "fieldtype": "Select",
+   "label": "Crane Level Indicator",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fire_extinguisher__suppression_syntem",
+   "fieldtype": "Select",
+   "label": "Fire Extinguisher_ Suppression Syntem",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "data_105",
+   "fieldtype": "Section Break",
+   "label": "LIFTING EQUIPMENT_SLINGS_CHAIN_SHACKLES"
+  },
+  {
+   "fieldname": "good_condition__correct_colour_tag",
+   "fieldtype": "Select",
+   "label": "Good Condition_ Correct Colour Tag",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_141",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "copy_of_lifting_equipment_register_in_crane",
+   "fieldtype": "Select",
+   "label": "Copy of Lifting Equipment Register in Crane",
+   "options": "\nPass\nFail\nN/A",
+   "reqd": 1
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "section_break_108",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "am_i_trained",
+   "fieldtype": "Heading",
+   "label": "AM I TRAINED, HAVE A CURRENT PERMIT AND FIT FOR WORK TO OPERATE THIS EQUIPMENT AND ATTACHMENT?"
+  },
+  {
+   "fieldname": "select_110",
+   "fieldtype": "Select",
+   "options": "\nYes\nNo",
+   "reqd": 1
+  },
+  {
+   "depends_on": "license_plate",
+   "fieldname": "section_break_111",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "comment_defects",
+   "fieldtype": "Small Text",
+   "label": "COMMENT/ DEFECTS"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Mobile Crane Checklist",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Mobile Crane Checklist",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [
+  {
+   "link_doctype": "Take 5",
+   "link_fieldname": "prestart_ref"
+  }
+ ],
+ "modified": "2026-04-10 06:42:39.533143",
+ "modified_by": "tathagata.c@anantdv.com",
+ "module": "Vehicle Transport",
+ "name": "Mobile Crane Checklist",
+ "naming_rule": "Expression (old style)",
+ "owner": "tathagata.c@anantdv.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Safety App",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

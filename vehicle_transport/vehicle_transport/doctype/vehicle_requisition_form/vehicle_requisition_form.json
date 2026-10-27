@@ -1,0 +1,248 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2026-04-10 06:21:10.341907",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "request_type",
+  "trip_requested_by",
+  "employee_name",
+  "column_break_3",
+  "department",
+  "trip_details_section",
+  "source",
+  "departure_date",
+  "purpose_of_travel",
+  "column_break_9",
+  "destination",
+  "departure_time",
+  "vehicle_type_required",
+  "cargo_details_section",
+  "cargo_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "LBL-VRF-.YYYY.-"
+  },
+  {
+   "default": "Employee",
+   "description": "Select Employee for Internal\nand Customer for External",
+   "fieldname": "request_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Request Type",
+   "options": "DocType",
+   "reqd": 1
+  },
+  {
+   "fieldname": "trip_requested_by",
+   "fieldtype": "Dynamic Link",
+   "label": "Trip Requested By",
+   "options": "request_type"
+  },
+  {
+   "bold": 1,
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "label": "Employee name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.request_type==\"Employee\"",
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "trip_details_section",
+   "fieldtype": "Section Break",
+   "label": "Trip Details"
+  },
+  {
+   "fieldname": "source",
+   "fieldtype": "Data",
+   "label": "Source"
+  },
+  {
+   "fieldname": "departure_date",
+   "fieldtype": "Date",
+   "label": "Expected Departure Date"
+  },
+  {
+   "fieldname": "purpose_of_travel",
+   "fieldtype": "Data",
+   "label": "Purpose of Travel"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "destination",
+   "fieldtype": "Data",
+   "label": "Destination"
+  },
+  {
+   "fieldname": "departure_time",
+   "fieldtype": "Time",
+   "label": "Departure Time"
+  },
+  {
+   "fieldname": "vehicle_type_required",
+   "fieldtype": "Select",
+   "label": "Vehicle Type Required",
+   "options": "\nLight Vehicle\nForklift\nDozer\nEWP\nExcavator\nHeavy Rigid, Prime Mover, Crain Truck, Side Iifter\nMedium Rigid, Hino Dutro, Hino 500 Truck\nLight Rigid Coster BUS\nVibrating Roller\nGrader"
+  },
+  {
+   "fieldname": "cargo_details_section",
+   "fieldtype": "Section Break",
+   "label": "Cargo Details"
+  },
+  {
+   "fieldname": "cargo_details",
+   "fieldtype": "Small Text",
+   "label": "Cargo/Passenger Details"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "Vehicle Log",
+   "link_fieldname": "vehicle_requisition_number"
+  },
+  {
+   "link_doctype": "Quotation",
+   "link_fieldname": "vehicle_requisition_number"
+  }
+ ],
+ "modified": "2026-04-10 06:21:10.341907",
+ "modified_by": "anantdv@gamil.com",
+ "module": "Vehicle Transport",
+ "name": "Vehicle Requisition Form",
+ "owner": "anantdv@gamil.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Department User",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Department Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Logistic Planner",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Logistic Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Logistic Supervisor",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "GM",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "DGM",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
